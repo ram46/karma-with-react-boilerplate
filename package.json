@@ -1,0 +1,46 @@
+{
+  "name": "karma-with-react-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "karma.conf.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "react-dev": "webpack -d --watch",
+    "test-runner": "karma start karma.conf.js"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "chai": "^4.1.2",
+    "istanbul-instrumenter-loader": "^3.0.1",
+    "karma": "^3.0.0",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-cli": "^1.0.1",
+    "karma-coverage": "^1.1.2",
+    "karma-jasmine": "^1.1.2",
+    "karma-mocha": "^1.3.0",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^3.0.0",
+    "mocha": "^5.2.0",
+    "webpack": "^2.7.0"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ram46/karma-with-react-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ram46/karma-with-react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/ram46/karma-with-react-boilerplate#readme"
+}
